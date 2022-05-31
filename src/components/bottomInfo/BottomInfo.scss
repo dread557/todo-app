@@ -1,0 +1,23 @@
+.b-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+    width: 40%;
+    
+    .take-actions {
+
+        button {
+            border: none;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .b-wrapper {
+            width: 80%;
+        }
+
+}

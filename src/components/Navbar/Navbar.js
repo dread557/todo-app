@@ -4,7 +4,6 @@ import './Navbar.scss'
 
 function Navbar() {
     const { isLightTheme, toggleTheme } = useContext(ThemeContext)
-    // const theme = isLightTheme ? light : dark
     return (
         <div className='nav-container'>
             {isLightTheme ? (

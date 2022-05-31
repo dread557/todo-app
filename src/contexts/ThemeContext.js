@@ -5,8 +5,8 @@ export const ThemeContext = createContext()
 
 class ThemeContextProvider extends Component {
     state = {
-        light: { bg: 'hsl(220, 98%, 61%)', txt: 'hsl(235, 19%, 35%)' },
-        dark: { bg: 'hsl(220, 98%, 61%)', txt: 'hsl(234, 39%, 85%)' },
+        light: { bg: '#fff', bdBg: '#fff', txt: 'hsl(235, 19%, 35%)', bxSdw: "box-shadow: 1px 2px 12px 3px #ccc" },
+        dark: { bg: 'hsl(233, 14%, 35%)', bdBg: 'hsl(237, 14%, 26%)', txt: '#fff', bxSdw: "box-shadow: 1px 2px 12px 3px red" },
         isLightTheme: true
     }
     toggleTheme = () => {
